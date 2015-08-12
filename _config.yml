@@ -10,9 +10,11 @@ baseurl: /dontry.github.io
 # google_analytics_id: UA-50755011-1
 # baseurl: /dontry.github.io
 
-# repository: https://github.com/dontry/dontry.github.io
-# # help_url: https://github.com/jekyll/jekyll-help
-# safe: true
+repository: https://github.com/dontry/dontry.github.io
+help_url: https://github.com/jekyll/jekyll-help
+safe: true
+lsi: false
+source: dontry.github.io
 # collections:
 #   docs:
 #     output: true
