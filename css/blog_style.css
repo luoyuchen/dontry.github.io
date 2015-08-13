@@ -1,0 +1,238 @@
+.container{
+	width: 700px;
+}
+
+.blog-header{
+	margin-top: 70px;
+}
+
+.banner{	
+	background: url(../images/azure.png) -300px -300px;	
+}
+
+.banner .blog-title, .banner .blog-description{
+	color: #fff;
+}
+
+.sidebar-module{
+	margin-bottom: 15px;
+}
+
+.sidebar-module.well>h4{
+	padding-left: 0px;
+}
+
+.sidebar-module h4{
+	padding-left: 20px;
+}
+
+
+.sidebar-module .weather-content{
+	margin-top: -7px;
+	width: 90%;	
+	height: 60px;
+	padding-left: 20px;
+}
+
+
+.sidebar-module .music-player{
+	margin-top: -10px;
+}
+
+.sidebar-module>ol>li img{
+	width: 32px;
+	height: 32px;	
+	display: block;
+	transition: 0.4s ease-out;
+	-moz-transition: 0.4s ease-out;
+    -webkit-transition: 0.4s ease-out;
+}
+
+.sidebar-module>ol>li{
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+.sidebar-module>ol>li:hover{
+	cursor: pointer;
+
+}
+
+.sidebar-module>ol>li:hover img{
+	transform: scale(1.2) rotate(360deg);
+	-moz-transform: scale(1.2) rotate(360deg);
+    -webkit-transform: scale(1.2) rotate(360deg);
+}
+
+.pager>li>a{
+	width:150px;
+	padding: 10px 20px;
+	text-align: center;
+	border-radius: 20px;
+	font-weight: bolder;
+}
+
+/*------------Calendar------------*/
+.clear{
+	clear: both;
+}
+
+.sidebar-module .month-container{
+	background:#fffbdf;
+	width:175px;
+	height:auto;
+	margin-left: 20px;	
+ box-shadow:0px 0px 8px 1px rgba(0,0,0,0.6); 
+}
+
+.sidebar-module .month-head{
+	background: #fff;
+	width: 175x;
+	height: 20px;
+	font: 8px "microsoft yahei";
+	text-shadow: 2px 2px 3px #fff;
+	text-align: center;
+	font-weight: bold;
+}
+
+.sidebar-module .month-head span{
+	color: #ffb186;
+	border-color: #99f;
+	line-height: 20px;
+}
+
+
+.sidebar-module .month-container ul{
+	padding: 0;
+	list-style:none;
+}
+
+.sidebar-module .month-container .month-body{
+	margin: 0;
+}
+
+
+.sidebar-module .month-cell{
+	float: left;
+	width: 25px; /*cell height,width:20*/
+	height: 20px;
+	background: #f5f5f5;
+	border: 1px solid #fefefe;
+
+}
+
+.sidebar-module .month-cell:active{
+	box-shadow: inset 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+.sidebar-module .month-cell span{
+	display: block;
+	color: #ccc;
+	font: 5px "microsoft yahei";
+	text-align: center;
+	line-height: 20px;
+	cursor: pointer;
+}
+
+.sidebar-module .month-cell.active span{
+	border-color: #ccc;
+
+}
+
+.sidebar-module .month-cell.pink {
+	background: #fff;
+}
+
+.sidebar-module .month-cell.pink span{
+	color: #ffb186;
+	border-color: #fff;
+}
+
+.sidebar-module .month-cell.azure{
+	background: #00f;
+}
+
+.sidebar-module .month-cell.azure span{
+	color: #fff;
+	border-color: #33f;
+}
+
+.sidebar-module .month-cell.blue{
+	background: #5bb5ec;
+}
+
+.sidebar-module .month-cell.blue span{
+	color: #fff;
+	border-color: #5bb5ec;
+}
+
+
+/*---------- Archive page -----------*/
+.archive-main{
+	margin-top: 75px;
+}
+
+.archive-main .archive-content{
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.archive-info ul .info-item .info-item-name{
+	font-size: 130%;
+	font-weight: 500;
+}
+
+.archive-info ul .info-item .info-item-value{
+	font-size: 130%;
+	font-style: oblique; 
+	font-weight: 200;
+	color: #777;
+}
+
+#my-logo img{
+	width: 64px;
+	height: 64px;
+	margin-right: 10px;
+	border: 1px solid #ccc;
+	
+}
+
+
+.archive-info{
+	margin-top: 75px;
+	padding-top: 14px;
+}
+
+/*----------Gallery----------*/
+.gallery-container{
+	margin: 0 auto;
+}
+
+.gallery-container .box{
+	position: relative;
+	float: left;
+}
+
+.gallery-container .box .img_content img{
+	width: 200px;
+	height: auto;
+}
+
+.gallery-container .box .img_content{
+	padding: 10px;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 5px #ccc;
+}
+
+.gallery-container .box .img_content:hover img{
+	width: 200px;
+	height: auto;
+	cursor: pointer;
+}
+
+/*------Article----------*/
+.carousel-inner .item{
+	overflow: hidden;
+	height: 300px;
+
+}
