@@ -6,6 +6,10 @@
 	margin-top: 70px;
 }
 
+.blog-post{
+	border-bottom: 4px solid #999;
+}
+
 .banner{	
 	background: url(../images/azure.png) -300px -300px;	
 }

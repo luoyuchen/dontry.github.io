@@ -3,11 +3,12 @@ layout: default
 title:hello world
 ---
 
+-----
 
-# This is my first blog
+####This is my first blog
 
 
-I started this blog on 12th, Aug, 2015.
+I started this blog on 12/08/2015.
 
 This is really amazing. I can see my webpage everywhere.
 

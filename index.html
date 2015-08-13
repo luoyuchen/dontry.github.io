@@ -12,15 +12,95 @@ title: My blog
 			</p>
 		</div>
 	</div>
+
+	<div class="row">
+		<div class="col-sm-8 blog-main">
+			{% for post in site.posts %}
+			<div class="blog-post">
+				<h3 class="blog-title">{{post.title}}</h3>
+				<p class="blog-post-meta">{{post.date | date_to_string}}</p>
+				<a href="{{site.baseurl}}{{post.url}}" class="btn btn-primary col-sm-3 col-sm-offset-8">View Details>></a>
+				<br>
+				<hr>
+			</div>
+			{%endfor %}
+
+			<nav>
+				<ul class="pager">
+					<li><a href="#">Previous</a></li>
+					<li><a href="#">Next</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+			<div class="side-bar-module well">
+				<h4>About</h4>
+				<p>
+					Hey, welcome to my blog. Nice to meet you!
+				</p>
+				<div class="sidebar-module">
+					<h4 class="weather-title">Weather</h4>
+					<div class="weather-content">
+						<iframe src="http://i.tianqi.com/index.php?c=code&id=12&icon=3&py=guangzhou&num=1" frameborder="0" width="230" scrolling="no" height="60" allowtransparency="true"></iframe>
+					</div>
+				</div>
+
+				<!-- <div class="sidebar-module">
+					<h4 class="calendar-title">Canlendar</h4>
+					<div class="month-container">
+						<div class="month-head"><span></span></div>
+						<ul class="month-body">
+							<div class="month-cell blue"><span>Sun</span></div>
+							<div class="month-cell blue"><span>Mon</span></div>
+							<div class="month-cell blue"><span>Tue</span></div>
+							<div class="month-cell blue"><span>Wed</span></div>
+							<div class="month-cell blue"><span>Thu</span></div>
+							<div class="month-cell blue"><span>Fri</span></div>
+							<div class="month-cell blue"><span>Sat</span></div>
+						</ul>
+						<div class="clear"></div>
+					</div>
+				</div>
+
+				<div class="sidebar-module">
+					<h4>Archives</h4>
+					<ol class="list-unstyled">
+						<li><a href=""></a></li>
+						<li><a href=""></a></li>
+						<li><a href=""></a></li>
+						<li><a href=""></a></li>
+					</ol>
+				</div>
+
+				<div class="sidebar-module">
+					<h4>Music player</h4>
+					<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=280 height=110 src="http://music.163.com/outchain/player?type=1&id=2883909&auto=1&height=90"></iframe>
+				</div> -->
+
+				<div class="sidebar-module">
+					<h4>External links</h4>
+					<ol class="list-unstyled">
+						<li><a href="http://www.baidu.com"><img src="images/baidu_logo.png">Baidu</a></li>
+						<li><a href="http://www.weibo.com"><img src="images/sina_logo.png">Weibo</a></li>
+						<li><a href="http://www.yivian.com"><img src="images/yivian_logo.png">Yivian</a></li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+
 </div>
 
 
-<h2>{{page.title}}</h2>
+<!-- <h2>{{page.title}}</h2>
 
 <p>latest post </p>
-
-<ul>
+ -->
+<!-- <ul>
 	{% for post in site.posts %}
-		<li>{{ post.date | date_to_string}} <a href="{{ post.url}}">{{post.title}}</a></li>
+		<li>{{ post.date | date_to_string}} <a href="{{site.baseurl}}{{ post.url}}">{{post.title}}</a></li>
 	{% endfor %}
 </ul>
+ -->
+
+

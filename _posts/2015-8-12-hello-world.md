@@ -1,8 +1,11 @@
 ---
 layout: default
-title: hello world
+title: Testing Post
 ---
 
-<h2>{{page.title}}</h2>
+-----
+
+###hello world~~
+
 <p>my first ariticle,say something here</p>
 <p>{{ page.date | date_to_string }}</p>
