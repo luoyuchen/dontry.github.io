@@ -15,7 +15,7 @@ help_url: https://github.com/jekyll/jekyll-help
 safe: true
 lsi: false
 paginate: 5
-source: /dontry.github.io
+source: dontry.github.io
 # collections:
 #   docs:
 #     output: true
