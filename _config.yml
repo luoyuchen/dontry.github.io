@@ -2,7 +2,7 @@ markdown: kramdown
 highlighter: pygments
 safe: true
 lsi: false
-#baseurl: /dontry.github.io
+baseurl: /dontry.github.io
 # permalink: /news/:year/:month/:day/:title/
 # excerpt_separator: ""
 
@@ -15,7 +15,7 @@ help_url: https://github.com/jekyll/jekyll-help
 safe: true
 lsi: false
 paginate: 5
-source: dontry.github.io
+#source: dontry.github.io
 # collections:
 #   docs:
 #     output: true
