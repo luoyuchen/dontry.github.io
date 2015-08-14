@@ -13,8 +13,8 @@ defaults:
 #Setup:
 title: Dontry Blog
 url: dontry.github.io
-baseurl: /dontry.github.io
-# source: /dontry.github.io
+# baseurl: /dontry.github.io
+source: /dontry.github.io
 paginate: 5
 safe: true
 lsi: false
