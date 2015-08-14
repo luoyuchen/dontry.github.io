@@ -23,8 +23,12 @@ repository: https://github.com/dontry/dontry.github.io
 help_url: https://github.com/jekyll/jekyll-help
 timezone: Asia/Shanghai
 
+#Profile
+author:  Dontry
+e-mail: mccoy018@gmail.com
+
 #Permalinks:
-permalink: /news/:year/:month/:day/:title/
+permalink: pretty #/news/:year/:month/:day/:title/
 
 #Conversion
 markdown: kramdown
