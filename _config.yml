@@ -2,7 +2,7 @@ markdown: kramdown
 highlighter: pygments
 safe: true
 lsi: false
-baseurl: /dontry.github.io
+#baseurl: /dontry.github.io
 # permalink: /news/:year/:month/:day/:title/
 # excerpt_separator: ""
 
