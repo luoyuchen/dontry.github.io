@@ -1,14 +1,14 @@
 ---
-layout: default
-title:hello world
+layout: post
+title:  First post
 ---
 
 -----
 
-####This is my first blog
+### This is my first blog
 
 
-I started this blog on 12/08/2015.
+I start this blog on 12/08/2015.
 
 This is really amazing. I can see my webpage everywhere.
 
@@ -20,5 +20,5 @@ And I learned some new stuffs like:
 - ruby on rails
 
 I hope I could get the hang of github pages soon
-<p>{{page.date | date_to_string}}</p>
+
 

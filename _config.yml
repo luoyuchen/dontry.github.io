@@ -14,6 +14,7 @@ repository: https://github.com/dontry/dontry.github.io
 help_url: https://github.com/jekyll/jekyll-help
 safe: true
 lsi: false
+paginate: 5
 #source: dontry.github.io
 # collections:
 #   docs:
