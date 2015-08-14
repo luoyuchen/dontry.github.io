@@ -8,14 +8,13 @@ defaults:
      path: ""
      type: "posts"
      values:
-     comments:true
 
 
 #Setup:
 title: Dontry Blog
-url: dontry.githu.io
-baseurl: /
-source: /dontry.github.io
+url: dontry.github.io
+baseurl: /dontry.github.io
+# source: /dontry.github.io
 paginate: 5
 safe: true
 lsi: false
@@ -28,7 +27,7 @@ author:  Dontry
 e-mail: mccoy018@gmail.com
 
 #Permalinks:
-permalink: pretty #/news/:year/:month/:day/:title/
+# permalink: pretty #/news/:year/:month/:day/:title/
 
 #Conversion
 markdown: kramdown
