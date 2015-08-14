@@ -14,12 +14,14 @@ defaults:
 #Setup:
 title: Dontry Blog
 url: dontry.githu.io
-baseurl: "/dontry.github.io"
+baseurl: /
+source: /dontry.github.io
 paginate: 5
 safe: true
 lsi: false
 repository: https://github.com/dontry/dontry.github.io
 help_url: https://github.com/jekyll/jekyll-help
+timezone: Asia/Shanghai
 
 #Permalinks:
 permalink: /news/:year/:month/:day/:title/
