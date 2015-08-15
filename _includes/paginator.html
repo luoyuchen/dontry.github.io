@@ -1,0 +1,16 @@
+<ul class="pager">
+	{% if paginator.previous_page %}
+		{% if paginator.page == 2%}
+			<li><a class="pagination-item previous" href="/" target="_self"><i class="fa fa-caret-left fa-fw"> Previous</i></a></li>
+			{% else %}
+				<li><a href="/page{{paginator.previous_page}}" class="pagination-item previous" target="_self"><i class="fa fa-caret-left fa-fw"> Previous</i></a></li>
+		{% endif %}
+	{% else %}
+		<li><a class="pagination-item previous" style="opacity: 0" target="_self"><i class="fa fa-caret-left fa-fw"> Previous</i></a></li>
+	{% endif  %}
+	{% if paginator.next_page %}
+		<li><a href="/page{{paginator.next_page}}" class="pagination-item next" target="_self"><i class="fa fa-caret-right fa-fw"></i>Next</a></li>
+	{% else %}
+		<li><a class="pagination-item next" style="opacity: 0" target="_self"><i class="fa fa-caret-right fa-fw"> Next</i></a></li>
+	{% endif %}
+</ul>

@@ -1,3 +1,4 @@
+/*------ Main ----------*/
 .container{
 	width: 700px;
 }
@@ -23,13 +24,20 @@
 }
 
 .banner{	
+	width: 80%;
+	margin: 0 auto;
 	background: url(../images/azure.png) -300px -300px;	
+	text-align: center;
+	background-color: #ddd;
 }
+
 
 .banner .blog-title, .banner .blog-description{
 	color: #fff;
 }
 
+
+/*---------Sidebar -----------*/
 .sidebar-module{
 	margin-bottom: 15px;
 }
@@ -55,6 +63,12 @@
 	margin-top: -10px;
 }
 
+.sidebar-module>ol>li{
+	padding-left: 15%;
+	margin-bottom: 10px;
+}
+
+
 .sidebar-module>ol>li img{
 	width: 32px;
 	height: 32px;	
@@ -64,10 +78,7 @@
     -webkit-transition: 0.4s ease-out;
 }
 
-.sidebar-module>ol>li{
-	padding-left: 20px;
-	margin-bottom: 10px;
-}
+
 
 .sidebar-module>ol>li:hover{
 	cursor: pointer;
@@ -182,24 +193,23 @@
 	border-color: #5bb5ec;
 }
 
-
 /*---------- Archive page -----------*/
 .archive-main{
 	margin-top: 75px;
 }
 
 .archive-main .archive-content{
-	font-size: 120%;
+	font-size: 1.2em;
 	font-weight: bold;
 }
 
-.archive-info ul .info-item .info-item-name{
-	font-size: 130%;
+.archive-main ul .info-item .info-item-name{
+	font-size: 1.5em;
 	font-weight: 500;
 }
 
-.archive-info ul .info-item .info-item-value{
-	font-size: 130%;
+.archive-main ul .info-item .info-item-value{
+	font-size: 1.3em;
 	font-style: oblique; 
 	font-weight: 200;
 	color: #777;
@@ -214,7 +224,7 @@
 }
 
 
-.archive-info{
+.archive-main{
 	margin-top: 75px;
 	padding-top: 14px;
 }
@@ -252,3 +262,4 @@
 	height: 300px;
 
 }
+
