@@ -14,8 +14,8 @@
         {% for item in page.carousel %}
         <div class="item {% if forloop.index == 1 %}active{% endif %}" style = "background: url({{ item.image }})">
 <!--             <img src="{{ item.image }}" alt="{{ forloop.index }}"> -->
-            <h1 class="carousel-caption">{{ item.main_heading }}</h1>
-            <a class="link" href="{{ item.read_more_link }}">Read more...</a>
+            <a class="carousel-caption" href="{{ item.read_more_link }}">{{ item.main_heading }}</a>
+            <!-- <a class="link" href="{{ item.read_more_link }}"> -->Read more...</a>
         </div><!--/.item-->
        {% endfor %}
     </div> 

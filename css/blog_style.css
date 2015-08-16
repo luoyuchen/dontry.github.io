@@ -26,7 +26,7 @@
 .banner{	
 	width: 80%;
 	margin: 0 auto;
-	background: url(../images/azure.png) -300px -300px;	
+	background: url(../images/azure.png);	
 	text-align: center;
 	background-color: #ddd;
 }
@@ -277,15 +277,14 @@
 }
 
 .carousel-inner .carousel-caption{
-	margin-bottom: 80px;
+	font-size: 2.5em;
+	text-decoration: none;
+	position: absolute;
+	top: 30%;
 }
 
-.carousel .link{
-	display: inline-block;
-	position: absolute;
-	bottom: 60px;
-	left: 400px;
-	z-index: 10;
-	font-size: 1.2em;
+.carousel .carousel-caption:hover{
+	cursor: pointer;
+	color: #ddd;
 }
 
