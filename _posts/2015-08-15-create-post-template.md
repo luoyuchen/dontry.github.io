@@ -3,7 +3,7 @@ layout: post
 title: Create Post Template
 ---
 
-### Another step
+Another step
 
 Tonight I create a post template. It's not a easy task. I was quite confused about the usage of jekyll. I thought some of the features were out of work. Then I took a gander with other blogs and their source. It is very useful. And I finally found a way to solve my problem. Hooray~~~
 

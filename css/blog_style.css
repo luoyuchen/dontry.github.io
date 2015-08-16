@@ -63,11 +63,19 @@
 	margin-top: -10px;
 }
 
-.sidebar-module>ol>li{
+/*.sidebar-module>ol>li{
 	padding-left: 15%;
 	margin-bottom: 10px;
+}*/
+
+.sidebar-module>ol{
+	margin-left: 10%;
 }
 
+.sidebar-module>ol>li{
+	float:left;
+	margin: 5px 20px 5px;
+}
 
 .sidebar-module>ol>li img{
 	width: 32px;
@@ -256,10 +264,28 @@
 	cursor: pointer;
 }
 
-/*------Article----------*/
+/*------Carousel----------*/
+.carousel{
+	position: relative;
+	margin-bottom: 30px;
+}
+
 .carousel-inner .item{
 	overflow: hidden;
 	height: 300px;
 
+}
+
+.carousel-inner .carousel-caption{
+	margin-bottom: 80px;
+}
+
+.carousel .link{
+	display: inline-block;
+	position: absolute;
+	bottom: 60px;
+	left: 400px;
+	z-index: 10;
+	font-size: 1.2em;
 }
 

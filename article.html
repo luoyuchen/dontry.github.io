@@ -1,76 +1,36 @@
 ---
 layout: default
 title: My blog
-<!-- carousel:
- - image: /images/slides/bg1.jpg
- - image: /images/slides/bg2.jpg
- - image: /images/slides/bg3.jpg
- - image: /images/slides/bg1.jpg -->
+carousel:
+ -  image: /images/slides/bg1.jpg
+    main_heading: Hello World
+    sub_heading: This is sub heading
+    read_more_link: 2015/08/12/hello-world.html
+ -  image: /images/slides/bg2.jpg
+    main_heading: First Post
+    sub_heading: This is sub heading
+    read_more_link: 2015/08/13/first-post.html
+ -  image: /images/slides/bg3.jpg
+    main_heading: Paginator and Comment Module
+    sub_heading: This is sub heading
+    read_more_link: 2015/08/15/paginator-and-comment.html
+
 ---
 <div class="container-fluid">
 	<div class="row blog-header">
-			<!-- <div class="col-lg-10 carousel slide blog-header" id="myCarousel" data-ride="carousel">
-		}
-		}
-		<ol class="carousel-indicators">
-			<li data-target="#myCarousel" data-slide-to="1" class="active"></li>
-			<li data-target="#myCarousel" data-slide-to="2"></li>
-			<li data-target="#myCarousel" data-slide-to="3"></li>
-		</ol>
-		<div class="carousel-inner" role="listbox">
-			<div class="item active">
-				<img src="images/bg1.jpg" alt="1">
-				<div class="container">
-					<div class="carousel-caption">
-						<h1>Article NO.1</h1>
-						<p>asdfklyasfnsdaf</p>
-						<p><a href="#" class="btn btn-primary" role="button">View detail»</a></p>
-					</div>
-				</div>
-			</div>
-			<div class="item">
-				<img src="images/bg2.jpg" alt="2">
-				<div class="container">
-					<div class="carousel-caption">
-						<h1>Article NO.1</h1>
-						<p>asdfklyasfnsdaf</p>
-						<p><a href="#" class="btn btn-primary" role="button">View detail»</a></p>
-					</div>
-				</div>
-			</div>
-			<div class="item">
-				<img src="images/bg3.jpg" alt="3">
-				<div class="container">
-					<div class="carousel-caption">
-						<h1>Article NO.1</h1>
-						<p>asdfklyasfnsdaf</p>
-						<p><a href="#" class="btn btn-primary" role="button">View detail»</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<a href="#myCarousel" class="left carousel-control" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"</span><span class="sr-only">Previous</span></a>
-		<a href="#myCarousel" class="right carousel-control" role="button" data-slide="next">
-			<span class="glyphicon glyphicon-chevron-right"></span><span class="sr-only">Next</span>
-		</a>			
-	</div> -->
-
+	{% if page.carousel %}
+		{% include carousel2.html %}
+	{% endif %}
 	{% for post in site.posts %}
-	<div class="blog-post col-lg-10">
-		<!-- <img src="" alt=""> -->
-		<h2 class="blog-post-title">{{post.title}}</h2>
-		<p class="blog-post-meta">created by<a href="about.html"> Don </a>{{post.date | date_to_string}}</p>
-		<p class="content">{{post.content | truncatewords: 25}}
-        </p>
-        <a href="{{post.url}}" class="btn btn-primary col-sm-2 col-sm-offset-8">Read more...</a>
-		<br>
-		<hr>
-	</div>
+		<div class="blog-post col-md-8 col-md-offset-2">
+			<!-- <img src="" alt=""> -->
+			<h2 class="blog-post-title">{{post.title}}</h2>
+			<p class="blog-post-meta">created by<a href="about.html"> Don </a>{{post.date | date_to_string}}</p>
+			<p class="content">{{post.content | truncatewords: 25}}
+	        </p>
+	        <a href="{{post.url}}" class="btn btn-primary col-sm-3 col-sm-offset-8">Read more...</a>
+			<br>
+			<hr>
+		</div>
 	{% endfor %}
-	<nav class="col-lg-10">
-		<ul class="pager">
-			<li><a href="#">Previous</a></li>
-			<li><a href="#">Next</a></li>
-		</ul>
-	</nav>
 </div>

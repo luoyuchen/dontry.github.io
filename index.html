@@ -14,7 +14,7 @@ title: My blog
 	</div>
 
 	<div class="row">
-		<div class="col-xs-12 col-md-8  blog-main">
+		<div class="col-xs-12 col-md-7 col-md-offset-1  blog-main">
 			{% for post in paginator.posts %}
 			<div class="blog-entry">
 				<h3 class="blog-title">{{post.title}}</h3>
@@ -31,7 +31,7 @@ title: My blog
 		</div>
 
 		<!-- sidebar module -->
-		<div class="col-xs-6 col-md-4  blog-sidebar">
+		<div class="col-xs-6 col-md-3  blog-sidebar">
 			<div class="side-bar-module well">
 				<h4>About</h4>
 				<p>
@@ -39,12 +39,12 @@ title: My blog
 				</p>
 			</div>
 			<div class="sidebar-module">
-				<h4 class="weather-title">Weather</h4>
+				<!-- <h4 class="weather-title">Weather</h4> -->
 				<div class="weather-content">
 					<iframe src="http://i.tianqi.com/index.php?c=code&id=12&icon=3&py=guangzhou&num=1" frameborder="0" width="230" scrolling="no" height="60" allowtransparency="true"></iframe>
 				</div>
 			</div>
-
+			{% include music-player.html %}
 				<!-- <div class="sidebar-module">
 					<h4 class="calendar-title">Canlendar</h4>
 					<div class="month-container">

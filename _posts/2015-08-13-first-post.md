@@ -5,7 +5,7 @@ title:  First post
 
 -----
 
-### This is my first blog
+This is my first blog
 
 
 I start this blog on 12/08/2015.
