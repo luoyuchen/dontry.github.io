@@ -2,12 +2,12 @@
 highlighter: pygments
 
 #Default YAML fronmatter settings
-defaults:
-  -
-    scope: 
-     path: ""
-     type: "posts"
-     values:
+# defaults:
+#   -
+#     scope: 
+#      path: ""
+#      type: "posts"
+#      values:
 
 
 #Setup:

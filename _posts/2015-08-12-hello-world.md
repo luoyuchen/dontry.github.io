@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Testing Post
-excerpt_separator: <!-- more -->
 ---
 
 ---
