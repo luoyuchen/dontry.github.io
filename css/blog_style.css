@@ -38,6 +38,12 @@
 
 
 /*---------Sidebar -----------*/
+#rss-img{
+	float: right;
+	width: 50px;
+	height: 50px;
+}
+
 .sidebar-module{
 	margin-bottom: 15px;
 }
