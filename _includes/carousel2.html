@@ -12,7 +12,7 @@
     <div class="carousel-inner">
         <!-- Wrapper for slides -->
         {% for item in page.carousel %}
-        <div class="item {% if forloop.index == 1 %}active{% endif %}" style = "background: url({{ item.image }})">
+        <div class="item {% if forloop.index == 1 %}active{% endif %}" style = "background: url({{ item.image }}); background-size: 100% autof ">
 <!--             <img src="{{ item.image }}" alt="{{ forloop.index }}"> -->
             <a class="carousel-caption" href="{{ item.read_more_link }}">{{ item.main_heading }}</a>
             <!-- <a class="link" href="{{ item.read_more_link }}"> Read more...</a>-->
