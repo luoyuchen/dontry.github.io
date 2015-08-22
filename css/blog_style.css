@@ -280,12 +280,14 @@ body{
 
 /*------Carousel----------*/
 .carousel{
+	display: block;
+	margin-top: 70px;
 	position: relative;
 	margin-bottom: 30px;
 }
 
 .carousel-inner .item{
-	overflow: hidden;z
+	overflow: hidden;
 	height: 300px;
 
 }
