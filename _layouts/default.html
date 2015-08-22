@@ -5,14 +5,18 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
 	<title>{{page.title}}</title>
 	<link rel="shortcut icon" type="image/x-icon" href="dontry_favicon.ico"/>
-	<link rel="stylesheet" type="text/css" href="/css/blog_style.css">
 	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/font-awesome/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="/css/font-awesome.css"> -->
+	<link rel="stylesheet" type="text/css" href="/css/blog_style.css">
 	<link rel="alternate" title="Dontry" type="application/atom+xml" href="http://dontry.github.io/feed.xml">
 </head>
 <body>
-	<?php include_once("analyticstracking.php") ?>
 	{% include header.html %}
-	{{content}}
+	<div class="content">
+		{{content}}
+	</div>
+	{% include footer.html %}
 	<script src="/js/jquery-2.1.1.min.js" ></script>
 	<script src="/js/bootstrap.min.js" ></script>
 	<script src="/js/my_blog.js"></script>
@@ -24,7 +28,7 @@
 
 	  ga('create', 'UA-66530912-1', 'auto');
 	  ga('send', 'pageview');
-
 	</script>
+
 </body>
 </html>

@@ -3,9 +3,7 @@ layout: post
 title: Testing Post
 ---
 
----
-
- Hello world~~
+Hello world~~
 
 hello world, enjoy the blogging
 <!-- more -->
