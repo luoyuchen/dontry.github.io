@@ -1,4 +1,8 @@
 /*------ Main ----------*/
+body{
+	width: 100%
+}
+
 .container{
 	width: 700px;
 }
@@ -25,7 +29,7 @@
 
 .banner{	
 	width: 80%;
-	margin: 0 auto;
+	margin: 70px auto 50px;
 	background: url(../images/azure.png);	
 	text-align: center;
 	background-color: #ddd;
@@ -42,6 +46,10 @@
 	float: right;
 	width: 50px;
 	height: 50px;
+}
+
+.blog-sidebar{
+	margin-top: 30px;
 }
 
 .sidebar-module{
@@ -277,7 +285,7 @@
 }
 
 .carousel-inner .item{
-	overflow: hidden;
+	overflow: hidden;z
 	height: 300px;
 
 }
@@ -294,3 +302,32 @@
 	color: #ddd;
 }
 
+/*----------Footer-----------*/
+#footer{
+	position: relative;
+	bottom: 0;
+	font: 1em/1.5em serif;
+	width: 100%;
+	height: 170px;
+	margin-top: 60px;
+	padding-top: 50px;
+	background-color: #f4f4f4;
+}
+
+#footer .container{
+	width: 100%;
+	text-align: center;
+}
+
+#footer .container .fa-ul{
+	margin-left: 0;
+	display: inline;
+}
+
+#footer .container ul li{
+	display: inline-block;
+}
+
+#footer .container ul li+li{
+	margin-left: 20px;
+}
