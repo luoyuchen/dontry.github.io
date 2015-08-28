@@ -251,6 +251,27 @@ body{
 	padding-top: 14px;
 }
 
+#scroll-top{
+	position: fixed;
+	bottom: 40px;
+	right: 20px;
+	width: 35px;
+	height: 45px;
+	background-color: #1D517D;
+	text-align: center;
+	z-index: 1;
+}
+
+#scroll-top:hover{
+	background-color: #4C9FE6;
+}
+
+#scroll-top .glyphicon-arrow-up{
+	line-height: 45px;
+	font-size: 2em;
+	color: #fff;
+}
+
 /*----------Gallery----------*/
 .gallery-container{
 	margin: 0 auto;
@@ -307,6 +328,7 @@ body{
 /*----------Footer-----------*/
 #footer{
 	position: relative;
+	z-index: -1;
 	bottom: -40px;
 	font: 1em/1.5em serif;
 	width: 100%;
