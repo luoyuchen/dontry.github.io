@@ -3,8 +3,8 @@ body{
 	width: 100%
 }
 
-.container{
-	width: 700px;
+.container-fluid{
+	min-height: 690px;
 }
 
 .blog-header{
@@ -259,7 +259,7 @@ body{
 	height: 45px;
 	background-color: #1D517D;
 	text-align: center;
-	z-index: 1;
+	z-index: 100;
 }
 
 #scroll-top:hover{
