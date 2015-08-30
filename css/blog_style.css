@@ -328,7 +328,7 @@ body{
 /*----------Footer-----------*/
 #footer{
 	position: relative;
-	z-index: -1;
+	z-index: 1;
 	bottom: -40px;
 	font: 1em/1.5em serif;
 	width: 100%;
@@ -352,6 +352,29 @@ body{
 	display: inline-block;
 }
 
+#footer .container ul li:hover{
+	cursor: pointer;
+}
+
 #footer .container ul li+li{
 	margin-left: 20px;
+}
+
+#footer .container ul li a{
+	position: relative;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+}
+
+#tooltip{
+	position: absolute;
+	background-color: #fff;
+	z-index: 3;
+	border: 3px solid #000;
+}
+
+#tooltip img{
+	width: 150px;
+	height: 150px
 }
