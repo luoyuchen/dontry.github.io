@@ -99,8 +99,8 @@ body{
 	margin: 5px 20px 5px;
 }
 
-.sidebar-module>ol>li img{
-	width: 32px;
+.sidebar-module>.links-list>li img{
+	/*width: 32px;*/
 	height: 32px;	
 	display: block;
 	margin: 0 auto;
@@ -109,9 +109,13 @@ body{
     -webkit-transition: 0.4s ease-out;
 }
 
+.sidebar-module>.links-list>li{
+	text-align: center;
+}
 
 
-.sidebar-module>ol>li:hover{
+
+.sidebar-module>.links-list>li:hover{
 	cursor: pointer;
 
 }
