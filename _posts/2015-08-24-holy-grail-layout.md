@@ -16,7 +16,10 @@ Most CSS solutions for Holy Grail aim to meet a few goals:
 
 And one of the most classic templates is like this:
 
-<script src="https://gist.github.com/dontry/5d81c511be5f0a847642.js"></script>
+#### Holy Grails Layout
+
+<p data-height="268" data-theme-id="0" data-slug-hash="pJMRgB" data-default-tab="result" data-user="dontry018" class='codepen'>See the Pen <a href='http://codepen.io/dontry018/pen/pJMRgB/'>Classic Holy Grail</a> by loconomo (<a href='http://codepen.io/dontry018'>@dontry018</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 We can see that how <em>float:left</em> and <em>nagative margin-left</em> are used to let sidebars stick aside. Besides combining <em>padding-bottom: 999px, margin-bottom: -999px</em>, it is able to make the same height for all columns.However, it is not adaptive enough because the main content part need to be set a pair of fixed padding values.
 
@@ -24,7 +27,8 @@ Then the Taobao UED create a more adaptive and advanced version of this classic 
 
 #### Wings layout
 
-<script src="https://gist.github.com/dontry/a367fc434313d7ccedc1.js"></script>
+<p data-height="268" data-theme-id="0" data-slug-hash="BNXQMJ" data-default-tab="result" data-user="dontry018" class='codepen'>See the Pen <a href='http://codepen.io/dontry018/pen/BNXQMJ/'>Wings Layout</a> by loconomo (<a href='http://codepen.io/dontry018'>@dontry018</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 <br>
 <br>

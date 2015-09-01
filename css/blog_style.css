@@ -52,6 +52,14 @@ body{
 	margin-top: 30px;
 }
 
+/*hide sidebar on mobile*/
+@media screen and (max-width: 870px){
+	.blog-sidebar{
+		display: none;
+	}
+}
+
+
 .sidebar-module{
 	margin-bottom: 15px;
 }
@@ -82,11 +90,11 @@ body{
 	margin-bottom: 10px;
 }*/
 
-.sidebar-module>ol{
+.sidebar-module>.links-list{
 	margin-left: 10%;
 }
 
-.sidebar-module>ol>li{
+.sidebar-module>.links-list>li{
 	float:left;
 	margin: 5px 20px 5px;
 }
@@ -95,6 +103,7 @@ body{
 	width: 32px;
 	height: 32px;	
 	display: block;
+	margin: 0 auto;
 	transition: 0.4s ease-out;
 	-moz-transition: 0.4s ease-out;
     -webkit-transition: 0.4s ease-out;
