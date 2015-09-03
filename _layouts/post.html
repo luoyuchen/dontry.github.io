@@ -10,7 +10,10 @@ author: Dontry
 		</div>
 		<div class="col-md-6 col-md-offset-3">
 		<!-- 多说评论框 start -->
-		<div class="ds-thread" data-thread-key="{{page.id}}" data-title="{{page.title}}" data-url="{{page.url}}"></div>
+		<div class="ds-thread" data-thread-key="{{page.id}}" data-title="{{page.title}}" data-url="{{page.url}}">
+			{% include tag.html %}
+			<p id="post-meta">{{ tags_content }}</p>
+		</div>
 			<script type="text/javascript">
 				var duoshuoQuery = {short_name:"dontry"};
 				(function() {

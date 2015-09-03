@@ -1,5 +1,4 @@
-_config.yml
-index.html
 _site/index.html
 Gemfile.lock
 _site/
+node_modules/

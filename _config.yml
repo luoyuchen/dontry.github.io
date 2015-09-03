@@ -32,6 +32,7 @@ author:  Dontry
 e-mail: mccoy018@gmail.com
 
 #Permalinks:
+relative_permalinks: true
 # permalink: pretty #/news/:year/:month/:day/:title/
 
 #Conversion

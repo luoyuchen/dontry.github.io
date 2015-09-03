@@ -33,13 +33,31 @@ body{
 	background: url(../images/azure.png);	
 	text-align: center;
 	background-color: #ddd;
-}
-
-
-.banner .blog-title, .banner .blog-description{
 	color: #fff;
 }
 
+
+.tag{
+	font-size: .7em;
+	display: inline-block;
+	background-color:  #ddd;
+	padding: 3px 10px;
+	margin: 3px 2px;
+}
+
+.tag a{
+	text-decoration: none;
+}
+
+.tag-banner{
+	width: 50%;
+	background: none;
+	color: #000;
+}
+
+.tag-banner .blog-description{
+	color: #999;
+}
 
 /*---------Sidebar -----------*/
 #rss-img{
@@ -62,6 +80,8 @@ body{
 
 .sidebar-module{
 	margin-bottom: 15px;
+	display: block;
+	margin-top: 20px;
 }
 
 .sidebar-module.well>h4{
@@ -90,13 +110,13 @@ body{
 	margin-bottom: 10px;
 }*/
 
-.sidebar-module>.links-list{
+.sidebar-module>.wrapper{
 	margin-left: 10%;
 }
 
 .sidebar-module>.links-list>li{
 	float:left;
-	margin: 5px 20px 5px;
+	margin: 5px 20px 5px 0px;
 }
 
 .sidebar-module>.links-list>li img{
@@ -138,6 +158,8 @@ body{
 .clear{
 	clear: both;
 }
+
+
 
 .sidebar-module .month-container{
 	background:#fffbdf;

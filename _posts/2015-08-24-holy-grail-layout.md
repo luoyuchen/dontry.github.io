@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Holy Grail Layout
+tags:
+ - LAYOUT
+ - HTML
 ---
 
 The Holy Grail Layout is a classic CSS problem with various solutions presented over time. Many people are searching for the best method and several goot templates are presented.

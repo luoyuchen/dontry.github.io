@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Bootstrap
+tags:
+ - BOOTSTRAP
+ - LAYOUT
 ---
 
 
 Bootstrap
 
- 	I migrated my bootstrap blog to github pages. Now I build my github blog from cratch. I will try to perfect it. 
- 	dasfd
-
-haha
+ 	I migrated my bootstrap blog to GitHub pages. Now I build my GitHub blog from cratch. I will try to perfect it. 
 

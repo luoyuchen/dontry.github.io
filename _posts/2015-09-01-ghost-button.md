@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Ghost Button
+tags: 
+ - GADGET
+ - CSS
 ---
 
-I created a button style with some fancy effects. It only depends on HTML + CSS. It shows the power of CSS transform and transition properties. However the CSS code is somehow redundant and prolix. I am going to learn a CSS preprocessor like SCSS to improve the efficiency.
+I created a button style with some fancy effects. It only depends on HTML + CSS. It shows the power of CSS transform and transition properties. However the CSS code is somehow redundant and prolix. I am going to learn a CSS preprocessor like SCSS to improve efficiency.
 
 ####Ghost Button
 

@@ -1,0 +1,135 @@
+探索博客企业版帮助关于登录
+kthinker
+kthinker / kthinker
+00
+HTTPSSSH Git (只读)
+代码
+工单 (0)
+Wiki
+合并请求 (0)
+统计图
+1d9533f84 天之前Gravatarwhodewho: rm goog 2015 spring festval
+文件提交历史分支：gitcafe-pages对比
+kthinker / blog / index.html
+..
+category
+tag
+index.html
+全屏查看原始文档index.html( 2.17 KB, 56 行 )
+9 月之前5471f70awhodewho: update
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+---
+layout: default
+title: Articles
+---
+
+<header id="post-header">
+    <h1 id="post-title">Articles</h1>
+</header>
+
+<div id="post-content">
+    {% if paginator.posts %}
+        {% for post in paginator.posts %}
+            <section class="post">
+                <header class="post-header">
+                    <h4 class="post-title"><a href="{{ post.url }}/">{{ post.title }}</a><small> &ndash; <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b. %d, %Y' }}</time></small></h4>
+                </header>
+                <div class="post-description">
+                    <p>{{ post.excerpt }}</p>
+                </div>
+                <a href="{{ post.url }}/" class="pull-right">Read more</a>
+                <div class="clearfix"></div>
+            </section>
+        {% endfor %}
+    {% else %}
+        <p>No posts found.</p>
+    {% endif %}
+    {% if paginator.total_pages > 1 %}
+        <div class="text-center">
+            <ul class="pagination">
+                {% if paginator.previous_page %}
+                    {% if paginator.previous_page == 1 %}
+                        <li><a href="/blog/">&laquo;</a></li>
+                    {% else %}
+                        <li><a href="{{ paginator.previous_page_path }}/">&laquo;</a></li>
+                    {% endif %}
+                {% else %}
+                    <li class="disabled"><span>&laquo;</span></li>
+                {% endif %}
+                {% for page in (1..paginator.total_pages) %}
+                    {% if page == paginator.page %}
+                        <li class="active"><span>{{ page }}</span></li>
+                    {% elsif page == 1 %}
+                        <li><a href="/blog/">1</a></li>
+                    {% else %}
+                        <li><a href="{{ site.paginate_path | replace: ':num', page }}/">{{ page }}</a></li>
+                    {% endif %}
+                {% endfor %}
+                {% if paginator.next_page %}
+                    <li><a href="{{ paginator.next_page_path }}/">&raquo;</a></li>
+                {% else %}
+                    <li class="disabled"><a href="#">&raquo;</a></li>
+                {% endif %}
+            </ul>
+        </div>
+    {% endif %}
+</div>
+© 2015 D.G.Z Inc. All Rights Reserved.
+首页探索博客帮助关于English简体中文繁體中文
+沪 ICP 备 14037482 号 - 1
+  

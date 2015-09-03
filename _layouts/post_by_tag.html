@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<div class="container-fluid">
+	<div class="row">
+		<div class="jumbotron banner tag-banner">
+			<h1 class="blog-title">{{ page.tag }}</h1>		
+			<p class="lead blog-description">
+				ARTICLES TAG BY
+			</p>
+		</div>
+		<div>
+		    {% if site.tags[page.tag] %}
+		        {% for post in site.tags[page.tag] %}
+		            <div class="blog-post col-md-8 col-md-offset-2">
+					<!-- <img src="" alt=""> -->
+					<h2 class="blog-post-title">{{post.title}}</h2>
+					<p class="blog-post-meta">created by<a href="profile.html"> Don </a>{{post.date | date_to_string}}</p>
+					<p class="content">{{post.content | truncatewords: 25}}
+			        </p>
+			        <a href="{{post.url}}" class="btn btn-primary col-sm-3 col-sm-offset-8">Read more...</a>
+					<br>
+					<hr>
+				</div>
+		        {% endfor %}
+		    {% else %}
+		        <p>There are no posts for this tag.</p>
+		    {% endif %}
+		</div>
+	</div>
+</div>
