@@ -1,10 +1,10 @@
 highlighter: pygments
 
 #Default YAML fronmatter settings
-defaults:
- - scope: 
- -  path: ""
- - type: "posts"
+# defaults:
+#  - scope: 
+#  -  path: ""
+#  - type: "posts"
 
 #Setup:
 title: Dontry Blog
