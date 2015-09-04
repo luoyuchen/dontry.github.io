@@ -57,6 +57,19 @@ body{
 
 .tag-banner .blog-description{
 	color: #999;
+}	
+
+.st-default-search-input{
+	vertical-align: middle;
+	float: right;
+	margin: 15px 10px;
+}
+
+@media (max-width: 769px){
+	.st-default-search-input{
+		float:left;
+		margin: 15px 0px;
+	}
 }
 
 /*---------Sidebar -----------*/
