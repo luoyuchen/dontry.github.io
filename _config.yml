@@ -1,4 +1,4 @@
-highlighter: pygments
+highlighter: Pygments
 
 #Default YAML fronmatter settings
 # defaults:
