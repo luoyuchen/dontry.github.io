@@ -1,4 +1,5 @@
-highlighter: Pygments
+highlighter: pygments
+markdown: redcarpet
 
 #Default YAML fronmatter settings
 # defaults:
@@ -33,7 +34,6 @@ relative_permalinks: true
 # permalink: pretty #/news/:year/:month/:day/:title/
 
 #Conversion
-markdown: kramdown
 excerpt_separator: "<!-- excerpt -->"
 
 # gauges_id: 503c5af6613f5d0f19000027
