@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Memoization(JS the good parts)
+title: Memoization <small>JS the good parts</small>
 tags: 
  - JS
 ---

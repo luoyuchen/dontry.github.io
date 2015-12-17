@@ -13,6 +13,12 @@ body{
 
 .blog-post{
 	margin-bottom: 20px;
+	text-align: justify;
+}
+
+.blog-post h1, .blog-post h2,.blog-post h3,.blog-post h4,.blog-post h5,
+.blog-post h6{
+	text-align: start;
 }
 
 .col-md-6 h3{

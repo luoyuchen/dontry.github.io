@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Global Variables(JS the good parts)
+title: Global Variables <small>JS the good parts</small>
 tags: 
  - JS
 ---
