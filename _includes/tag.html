@@ -1,6 +1,3 @@
-<!-- {% for tag in  page.tags %}
-	<span class="tag"><a href="">{{tag}}</a></span>		
-{% endfor%} -->
 {% if page.tags.size > 0 %}
     <span class="tag-description">{% capture tags_content %}Posted with {% if page.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}: {% endcapture %}</span>
     {% for post_tag in page.tags %}

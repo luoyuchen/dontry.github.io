@@ -51,17 +51,17 @@ body{
 	margin: 3px 2px;
 }
 
-.tag a{
+.tag a {
 	text-decoration: none;
 }
 
-.tag-banner{
+.banner-tag {
 	width: 50%;
 	background: none;
 	color: #000;
 }
 
-.tag-banner .blog-description{
+.banner-tag .blog-description{
 	color: #999;
 }	
 
@@ -79,12 +79,6 @@ body{
 }
 
 /*---------Sidebar -----------*/
-#rss-img{
-	float: right;
-	width: 50px;
-	height: 50px;
-}
-
 .blog-sidebar{
 	margin-top: 30px;
 }
@@ -101,10 +95,6 @@ body{
 	margin-bottom: 15px;
 	display: block;
 	margin-top: 20px;
-}
-
-.sidebar-module.well>h4{
-	padding-left: 0px;
 }
 
 .sidebar-module h4{
@@ -136,6 +126,7 @@ body{
 .sidebar-module>.links-list>li{
 	float:left;
 	margin: 5px 20px 5px 0px;
+	text-align: center;
 }
 
 .sidebar-module>.links-list>li img{
@@ -147,12 +138,6 @@ body{
 	-moz-transition: 0.4s ease-out;
     -webkit-transition: 0.4s ease-out;
 }
-
-.sidebar-module>.links-list>li{
-	text-align: center;
-}
-
-
 
 .sidebar-module>.links-list>li:hover{
 	cursor: pointer;
@@ -185,12 +170,12 @@ body{
 	width:175px;
 	height:auto;
 	margin-left: 20px;	
- box-shadow:0px 0px 8px 1px rgba(0,0,0,0.6); 
+	box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.6); 
 }
 
 .sidebar-module .month-head{
 	background: #fff;
-	width: 175x;
+	width: 175px;
 	height: 20px;
 	font: 8px "microsoft yahei";
 	text-shadow: 2px 2px 3px #fff;
@@ -202,12 +187,6 @@ body{
 	color: #ffb186;
 	border-color: #99f;
 	line-height: 20px;
-}
-
-
-.sidebar-module .month-container ul{
-	padding: 0;
-	list-style:none;
 }
 
 .sidebar-module .month-container .month-body{
@@ -305,7 +284,7 @@ body{
 	padding-top: 14px;
 }
 
-#scroll-top{
+.scroll-top{
 	position: fixed;
 	bottom: 40px;
 	right: 20px;
@@ -319,12 +298,12 @@ body{
 	transition: 0.3s ease-out;
 }
 
-#scroll-top:hover{
+.scroll-top:hover{
 	background-color: #0B2842;
 	box-shadow: 3px 4px 3px 2px rgba(0,0,50,0.4);
 }
 
-#scroll-top .glyphicon-arrow-up{
+.scroll-top .glyphicon-arrow-up{
 	line-height: 45px;
 	font-size: 2em;
 	color: #fff;
