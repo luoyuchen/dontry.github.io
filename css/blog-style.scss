@@ -28,47 +28,18 @@ body,
 }
 
 /*
-Blog module
-*/
-
-.blog-header {
-  margin-top: 70px;
-}
-
-.blog-post {
-  margin-bottom: 20px;
-  text-align: justify;
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    text-align: start;
-	}
-
-  p {
-    font-size: 1.2em;
-  }
-
-  .date {
-    text-align: right;
-  }
-}
-
-/*
 Banner
 */
 
 .banner {
-  background: url('../images/azure.png');
+  background: url('/images/azure.png');
   background-color: $light-white;
   color: $pure-white;
   margin: 70px auto 50px;
   text-align: center;
   width: $full-width-80pc;
 }
+
 
 /*
 Tag
@@ -274,7 +245,7 @@ Pager
 }
 
 
-.scroll-top {
+#scroll-top {
   background-color: $light-deep-blue;
   position: fixed;
   bottom: 40px;
@@ -294,7 +265,7 @@ Pager
   }
 }
 
-.scroll-top:hover {
+#scroll-top:hover {
   background-color: $deep-blue;
 }
 
@@ -412,6 +383,36 @@ Carousel
     }
   }
 }
+
+
+/*----Blog page-------*/
+
+.blog-header {
+  margin-top: 70px;
+}
+
+.blog-post {
+  margin-bottom: 20px;
+  text-align: justify;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-align: start;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+
+  .date {
+    text-align: right;
+  }
+}
+
 
 
 

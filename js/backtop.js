@@ -19,7 +19,7 @@ window.onload = function(){
 		}else{
 			topBtn.style.display="none";
 		}
-	}
+	};
 
 	topBtn.onclick = function(){
 		timer = setInterval(function(){
@@ -30,5 +30,5 @@ window.onload = function(){
 				clearInterval(timer);
 			}
 		}, 30);
-	}
-}
+	};
+};

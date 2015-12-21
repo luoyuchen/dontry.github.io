@@ -1,5 +1,4 @@
 highlighter: pygments
-markdown: redcarpet
 
 #Default YAML fronmatter settings
 # defaults:
@@ -9,9 +8,11 @@ markdown: redcarpet
 
 #Setup:
 title: Dontry Blog
-url: dontry.github.io
 # baseurl: /dontry.github.io
-source: /Users/caidong/Documents/Web_Design/dontry_blog/dontry.github.io
+source: .
+destination: ./_site
+layouts: ./_layouts
+plugins: ./_plugins
 paginate: 4
 safe: true
 lsi: false
@@ -32,8 +33,8 @@ author:  Dontry
 e-mail: mccoy018@gmail.com
 
 #Permalinks:
-# relative_permalinks: true
-# permalink: pretty #/news/:year/:month/:day/:title/
+relative_permalinks: true
+permalink: pretty #/news/:year/:month/:day/:title/
 
 #Conversion
 excerpt_separator: "<!-- excerpt -->"
