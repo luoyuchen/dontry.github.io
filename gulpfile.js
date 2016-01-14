@@ -63,5 +63,5 @@ gulp.task("dev", function() {
 
 gulp.task("product", function(){
     console.log("production version");
-    gulp.start("clean", "minifycss", "uglify");
+    gulp.start("clean", "sass","minifycss", "uglify");
 });

@@ -30,10 +30,10 @@ Tag
     text-decoration: none; }
 
 .banner-tag {
-  color: #000;
+  color: #fffbdf;
   width: 50%; }
   .banner-tag .blog-description {
-    color: #999; }
+    color: #fffbdf; }
 
 /*
 Search engine
@@ -265,7 +265,8 @@ Carousel
   text-align: justify; }
   .blog-post h1,
   .blog-post h2,
-  .blog-post h3,
+  .blog-post h3 {
+    text-align: center; }
   .blog-post h4,
   .blog-post h5,
   .blog-post h6 {

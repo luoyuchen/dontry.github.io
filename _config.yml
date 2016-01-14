@@ -1,5 +1,5 @@
 highlighter: pygments
-
+markdown: redcarpet
 #Default YAML fronmatter settings
 # defaults:
 #  - scope: 

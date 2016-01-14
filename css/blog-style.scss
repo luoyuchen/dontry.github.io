@@ -58,11 +58,11 @@ Tag
 }
 
 .banner-tag {
-  color: $pure-black;
+  color: $light-milk;
   width: $full-width-50pc;
 
   .blog-description {
-    color: $light-grey;
+    color: $light-milk;
   }
 }
 
@@ -397,10 +397,15 @@ Carousel
 
   h1,
   h2,
-  h3,
+  h3
+  {
+    text-align: center;
+  }
+
   h4,
   h5,
-  h6 {
+  h6 
+  {
     text-align: start;
   }
 
