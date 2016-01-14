@@ -1,5 +1,5 @@
 ---
 layout: post_by_tag
 tag: CSS
-permalink: /css/
+permalink: /CSS/
 ---
